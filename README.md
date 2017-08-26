@@ -40,3 +40,17 @@ public class Adapter extends PagerAdapter {
     }
 }
 ```
+
+- xml
+```xml
+<view
+        android:id="@+id/view"
+        class="android.support.v4.view.ViewPager"
+        id="@+id/view"
+        layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+```
